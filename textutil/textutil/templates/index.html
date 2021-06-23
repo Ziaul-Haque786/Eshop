@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Template is working</title>
+</head>
+<body>
+<h1> Welcome to Text analyser. Enter your text below</h1>
+<form action='/analyze' method='post' > {% csrf_token %}
+    <textarea name='text' style="margin: 0px; width: 1351px; height: 126px;"> </textarea>
+    <input type="checkbox" name="removepunc"> Remove Punctuation </br>
+    <button type="submit">Analyze Text</button>
+</form>
+</body>
+</html>
