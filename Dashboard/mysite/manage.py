@@ -1,4 +1,4 @@
-#!/usr/bin/env pythonhghj
+#!/usr/bin/env pythonhghjgd
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
